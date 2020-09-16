@@ -40,6 +40,17 @@
       "search-content"
     ]
   },
+  "search-content": {
+    "blocks": [
+      "galery",
+      "not-found"
+    ]
+  },
+  "galery": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
   "flex-layout.row#top": {
     "children": [
       "total-products.v2",
