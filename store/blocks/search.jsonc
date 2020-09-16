@@ -42,11 +42,11 @@
   },
   "search-content": {
     "blocks": [
-      "galery",
+      "gallery",
       "not-found"
     ]
   },
-  "galery": {
+  "gallery": {
     "blocks": [
       "product-summary.shelf"
     ]
