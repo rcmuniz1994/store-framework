@@ -24,10 +24,19 @@
     "children": [
       "product-images",
       "product-brand"
-    ],
+    ]
+  },
+  "product-brand": {
     "props": {
       "height": 30,
       "displayMode": "logo"
+    }
+  },
+  "sku-selector": {
+    "props": {
+      "initialSelection": "empty",
+      "showValueForVariation": "iamge",
+      "showVariationsErrorMessage": true
     }
   },
   "flex-layout.col#right": {
@@ -55,12 +64,5 @@
       "sku-selector",
       "product-quantity"
     ]
-  },
-  "sku-selector": {
-    "props": {
-      "initialSelection": "empty",
-      "showValueForVariation": "iamge",
-      "showVariationsErrorMessage": true
-    }
   }
 }
