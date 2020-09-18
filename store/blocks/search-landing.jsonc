@@ -1,0 +1,29 @@
+{
+  "store.custom#landing": {
+    "blocks": [
+      "image#landingbanner",
+      "search-result-layout.customQuery"
+    ]
+  },
+  "image#landingbanner": {
+    "props": {
+      "src": "https://i0.statig.com.br/bancodeimagens/0i/ki/b7/0ikib7p27ufvf19cm5gy1jks8.jpg",
+      "minWidth": "100%"
+    }
+  },
+  "search-result-layout.customQuery": {
+    "blocks": [
+      "search-result-layout.desktop"
+    ],
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Camera",
+        "mapField": "ft",
+        "skulsFilter": "ALL_AVAILABLE"
+      }
+    }
+  }
+}
