@@ -8,7 +8,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#major-appliances"
+      "vtex.menu@2.x:submenu#major"
     ]
   },
   "menu-item#small-appliances": {
@@ -21,7 +21,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#small-appliances"
+      "vtex.menu@2.x:submenu#small"
     ]
   },
   "menu-item#electronics": {
